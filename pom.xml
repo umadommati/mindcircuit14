@@ -15,15 +15,15 @@
 	</properties>
 
 	<distributionManagement>
-		 <snapshotRepository>
+		 <repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-44-202-247-118.compute-1.amazonaws.com:8081/repository/batch14-repo-snapshots/</url>
-		 </snapshotRepository>
+		    <url>http://54.90.149.25:8081/repository/practice-repo/</url>
+		 </repository>
 		
-		<repository>
+		<snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-44-202-247-118.compute-1.amazonaws.com:8081/repository/batch14-repo-release/</url>
-		</repository>
+		    <url>http://54.90.149.25:8081/repository/practice-repo-snapshots/</url>
+		</snapshotRepository>
   	</distributionManagement>
 
     
@@ -40,4 +40,5 @@
         </plugins>
     </build>
 </project>
+
 
